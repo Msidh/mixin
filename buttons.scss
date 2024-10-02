@@ -1,0 +1,9 @@
+@mixin colorspacing ($tb,$lr,$c){
+    padding: $tb,$lr;
+    background-color: $c;
+}
+
+@mixin images($w,$h){
+    width: $w;
+    height: $h;
+}

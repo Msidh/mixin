@@ -1,0 +1,14 @@
+@import './buttons';
+
+button{
+    @include colorspacing(30px,30px,red)
+
+}
+#one{
+    @include colorspacing(30px,30px,yellow)
+}
+
+#bg{
+    background-image: url("https://dkr0pu7ej5xex.cloudfront.net/wp-content/uploads/2017/04/24135159/Netflix-Background.jpg");
+    @include images(300px,800x)
+}
